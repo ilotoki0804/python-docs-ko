@@ -23,7 +23,7 @@
 # .po files.
 CPYTHON_CURRENT_COMMIT := 9cbde7c6ce6f7b93301a37f03dfa0c0d45e00a39
 
-CPYTHON_PATH := ../cpython/
+CPYTHON_PATH := /YOUR/CPYTHON/PATH/HERE
 
 LANGUAGE := ko
 BRANCH := 3.12
@@ -34,7 +34,7 @@ EXCLUDED := whatsnew/ c-api/
 
 UPSTREAM := https://github.com/python/cpython
 
-PYTHON := $(shell which python3)
+PYTHON := $(shell which python)
 MODE := html
 POSPELL_TMP_DIR := .pospell/
 JOBS := auto
